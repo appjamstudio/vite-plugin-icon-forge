@@ -12,6 +12,11 @@
     "url": "https://github.com/appjamstudio/vite-plugin-icon-forge.git"
   },
   "bugs": "https://github.com/appjamstudio/vite-plugin-icon-forge/issues",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+
   "exports": {
     ".": {
       "import": {
