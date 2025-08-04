@@ -1,7 +1,7 @@
 {
   "name": "@appjamstudio/vite-plugin-icon-forge",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "packageManager": "pnpm@10.14.0",
   "description": "A Vite plugin that automatically transforms SVG files into React components with TypeScript support, allowing easy import and use of SVG icons in your React applications",
   "author": "Geo Stokes",
@@ -48,7 +48,8 @@
     "build": "tsup",
     "dev": "tsup --watch src",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "release": "bumpp && npm publish"
   },
   "keywords": [
     "vite-plugin",
@@ -74,6 +75,7 @@
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^24.1.0",
     "@typescript-eslint/parser": "^8.38.0",
+    "bumpp": "^10.2.2",
     "eslint": "^9.32.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "tsup": "^8.5.0",
