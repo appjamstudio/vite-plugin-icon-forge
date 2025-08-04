@@ -1,7 +1,7 @@
 {
   "name": "@appjamstudio/vite-plugin-icon-forge",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0-beta.1",
   "packageManager": "pnpm@10.14.0",
   "description": "A Vite plugin that automatically transforms SVG files into React components with TypeScript support, allowing easy import and use of SVG icons in your React applications",
   "author": "Geo Stokes",
