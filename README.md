@@ -112,9 +112,9 @@ my-app/
 
 ## Requirements
 
-- Vite 3.0+
+- Vite 8.0+
 - React 16.8+
-- Node.js 16+
+- Node.js 22+
 
 ## Peer Dependencies
 
