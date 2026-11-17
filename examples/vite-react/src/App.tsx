@@ -1,7 +1,9 @@
+import './App.css';
+
 import { useState } from 'react';
+
 import { HeartIcon, StarIcon } from './icons/basic';
 import { GithubIcon, TwitterIcon } from './icons/social';
-import './App.css';
 
 export default function App() {
   const [count, setCount] = useState(0);
