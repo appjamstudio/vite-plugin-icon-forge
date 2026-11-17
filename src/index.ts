@@ -3,7 +3,7 @@ import { promises as fs } from 'node:fs';
 import type { Config } from '@svgr/core';
 import { camelCase, upperFirst } from 'lodash-es';
 import path from 'path';
-import { Plugin, transformWithEsbuild } from 'vite';
+import { Plugin, transformWithOxc } from 'vite';
 
 type PluginOptions = {
   iconsDirectory?: string;
@@ -86,8 +86,8 @@ export default function iconForge(options: PluginOptions = {}): Plugin {
             }
           });
 
-        const result = await transformWithEsbuild(componentCode, id, {
-          loader: 'jsx'
+        const result = await transformWithOxc(componentCode, id, {
+          lang: 'jsx'
         });
 
         return {

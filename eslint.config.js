@@ -26,14 +26,11 @@ export default defineConfig([
   }),
   {
     rules: {
-      '@stylistic/operator-linebreak': ['warn', 'after'],
+      '@stylistic/jsx-one-expression-per-line': 'off',
       '@stylistic/no-extra-parens': 'off',
-      '@stylistic/spaced-comment': 'off',
+      '@stylistic/operator-linebreak': 'off',
       '@stylistic/semi-style': ['warn', 'last'],
-      'react-refresh/only-export-components': [
-        'warn',
-        { allowConstantExport: true }
-      ]
+      '@stylistic/spaced-comment': 'off'
     }
   }
 ]);
